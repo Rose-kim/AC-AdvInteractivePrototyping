@@ -11,10 +11,11 @@ Secondary color Deep yellow #ffc400
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html {
-    background-color: #fff;
+    background-color: #000;
     color: #555555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -64,12 +65,22 @@ h1 {
 /*--------------------------------------------*/
 /* HEADER */
 /*--------------------------------------------*/
+.logo {
+    margin-top: 45px;
+    margin-left: 50px;
+    height: 40px;
+    width: : auto;
+    float: left;
+}
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/astronaut.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh /*100% of the viewport*/
+}
+
+.home-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/astronaut.jpg);
 }
 
 .main-nav {
@@ -103,4 +114,36 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);   
+}
+
+/*--------------------------------------------*/
+/* PROJECT PAGE */
+/*--------------------------------------------*/
+
+.project-header {
+    background-color: #0b0b0b;
+    background-size: cover;
+    background-position: center;
+    height: 30vh /*100% of the viewport*/
+}
+
+.project-title {
+    position: absolute;
+    top:15%;
+    left:10%;
+}
+
+.diagram {
+    background-color: #000;
+}
+
+/*--------PARAGRAPH--------*/
+.project-description {
+    color: #fff;
+}
+
+/*------POST MATERIAL--------*/
+.diagram-img {
+    width: 1200px;
+    
 }
