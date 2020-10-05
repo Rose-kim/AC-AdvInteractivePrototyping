@@ -37,6 +37,12 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+    color: #fff;
+    font-size: 130%;
+    margin-left: 8.5%;
+}
+
 /*------ BUTTONS ------*/
 
 .btn:link,
@@ -60,6 +66,16 @@ h1 {
 .brn:active {
     background-color: #fff;
     color: #039be5;
+}
+
+/*------ VIDEO ------*/
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 500px;
 }
 
 /*--------------------------------------------*/
@@ -124,7 +140,8 @@ header {
     background-color: #0b0b0b;
     background-size: cover;
     background-position: center;
-    height: 30vh /*100% of the viewport*/
+    height: 30vh; /*100% of the viewport*/
+
 }
 
 .project-title {
@@ -133,8 +150,23 @@ header {
     left:10%;
 }
 
-.diagram {
+.week01 {
     background-color: #000;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.week02{
+    background-color: #201f1d;
+    padding-top: 50px;
+}
+
+.week03 {
+    background-color: #000;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 /*--------PARAGRAPH--------*/
@@ -142,8 +174,20 @@ header {
     color: #fff;
 }
 
+.week-description {
+    display: block;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
 /*------POST MATERIAL--------*/
 .diagram-img {
-    width: 1200px;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    opacity: 80%
 }
