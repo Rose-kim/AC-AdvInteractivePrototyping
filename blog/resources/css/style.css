@@ -22,6 +22,20 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* .clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+} */
+
 
 /*--------------------------------------------*/
 /* REUSABLE COMPONENTS */
@@ -40,7 +54,8 @@ h1 {
 h2 {
     color: #fff;
     font-size: 130%;
-    margin-left: 8.5%;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 /*------ BUTTONS ------*/
@@ -78,12 +93,15 @@ h2 {
     height: 500px;
 }
 
+p {
+    color: #fff;
+}
+
 /*--------------------------------------------*/
 /* HEADER */
 /*--------------------------------------------*/
 .logo {
     margin-top: 45px;
-    margin-left: 50px;
     height: 40px;
     width: : auto;
     float: left;
@@ -140,33 +158,33 @@ header {
     background-color: #0b0b0b;
     background-size: cover;
     background-position: center;
-    height: 30vh; /*100% of the viewport*/
-
+    height: 400px;
 }
 
 .project-title {
     position: absolute;
-    top:15%;
+    top:200px;
     left:10%;
 }
 
 .week01 {
     background-color: #000;
     margin-top: 50px;
-    margin-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .week02{
     background-color: #201f1d;
     padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
 }
 
 .week03 {
     background-color: #000;
     margin-top: 50px;
-    margin-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    color: #fff;
 }
 
 /*--------PARAGRAPH--------*/
@@ -177,8 +195,6 @@ header {
 .week-description {
     display: block;
     color: #fff;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 15px;
     margin-bottom: 20px;
     
@@ -189,5 +205,58 @@ header {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
-    opacity: 80%
+    opacity: 80%;
+    padding-bottom: 20px;
+}
+/*------LIST--------*/
+ul li {
+    color: #fff;
+    line-height: 1.5;
+}
+
+.list {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+/*--------PHOTO SHOWCASE --------*/
+.proto-showcase {
+    margin-top: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.proto-showcase li{
+    display: block;
+    float:left;
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+.proto-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden; /*container will hide overflow*/
+    background-color: #000;
+}
+
+.proto-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.15); /*only this would be overflow*/
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.proto-photo img:hover {
+    transform: scale(1.07);
+    opacity: 1;
+    
+}
+
+.photo-plan {
+    display: block;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: auto;
 }
