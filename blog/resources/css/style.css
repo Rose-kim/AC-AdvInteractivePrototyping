@@ -53,9 +53,18 @@ h1 {
 
 h2 {
     color: #fff;
-    font-size: 130%;
+    font-size: 150%;
     line-height: 1.6;
     margin-bottom: 10px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #fff;
+    font-size: 130%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
 
 /*------ BUTTONS ------*/
@@ -93,8 +102,15 @@ h2 {
     height: 500px;
 }
 
+.vimeo-video {
+    width: 100%;
+}
+/*----IMAGE------*/
+
+
 p {
     color: #fff;
+    margin-bottom: 30px;
 }
 
 /*--------------------------------------------*/
@@ -175,14 +191,20 @@ header {
 
 .week02{
     background-color: #201f1d;
+    margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #fff;
 }
 
+.week02 img {
+    width: 100%;
+}
+
 .week03 {
     background-color: #000;
-    margin-top: 50px;
+    padding-top: 50px;
+    margin-top:50px;
     margin-bottom: 50px;
     color: #fff;
 }
@@ -204,8 +226,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
-    opacity: 80%;
+    width: 100%;
     padding-bottom: 20px;
 }
 /*------LIST--------*/
