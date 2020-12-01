@@ -67,6 +67,9 @@ h3 {
     font-weight: 500;
 }
 
+img {
+    width: 100%;
+}
 /*------ BUTTONS ------*/
 
 .btn:link,
@@ -81,15 +84,17 @@ h3 {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #039be5;
+    background-color: #FF5733;
     margin-right: 15px;
     color: #fff;
+    border-radius: 15px;
 }
 
 .btn:hover,
 .brn:active {
     background-color: #fff;
-    color: #039be5;
+    color: #FF5733;
+    border-color: #FF5733;
 }
 
 /*------ VIDEO ------*/
@@ -113,6 +118,11 @@ p {
     margin-bottom: 30px;
 }
 
+p a:link,
+p a:visited {
+    color:#fff
+}
+
 /*--------------------------------------------*/
 /* HEADER */
 /*--------------------------------------------*/
@@ -130,7 +140,11 @@ header {
 }
 
 .home-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/astronaut.jpg);
+    background-image: linear-gradient(rgba(253, 253, 253, 0.99), rgba(253, 253, 253, 0.7)), url(img/electronic.jpg);
+}
+
+.index {
+    color: #000;
 }
 
 .main-nav {
@@ -250,7 +264,7 @@ ul li {
     display: block;
     float:left;
     width: 25%;
-    padding-bottom: 50px;
+   /* padding-bottom: 50px; */
 }
 
 .proto-photo {
